@@ -1,9 +1,13 @@
 public class Diamante extends Thread{
 
-    private  Metodos diamante;
+    Metodos diamante = new Metodos();
 
-    public Diamante (){
+    public Diamante ( Metodos diamante){
+        this.diamante=diamante;
+    }
 
+    public Diamante() {
+        
     }
 
     public void run() {

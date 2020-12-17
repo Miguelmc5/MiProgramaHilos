@@ -1,6 +1,6 @@
 public class Cereza extends Thread {
 
-    private Metodos cereza;
+    Metodos cereza = new Metodos();
 
     public Cereza (){
 

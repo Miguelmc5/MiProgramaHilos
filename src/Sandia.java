@@ -1,6 +1,6 @@
 public class Sandia extends Thread {
 
-    private Metodos sandia;
+    Metodos sandia = new Metodos();
 
     public Sandia (){
 
